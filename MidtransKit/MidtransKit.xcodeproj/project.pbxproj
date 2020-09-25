@@ -202,10 +202,10 @@
 		0CCD621920048FA3006936E5 /* MIDOtherVAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCD621120048F8E006936E5 /* MIDOtherVAViewController.m */; };
 		0CCD621B20048FCA006936E5 /* MIDOtherVAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CCD621A20048FCA006936E5 /* MIDOtherVAViewController.xib */; };
 		0CCD621C20048FCA006936E5 /* MIDOtherVAViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0CCD621A20048FCA006936E5 /* MIDOtherVAViewController.xib */; };
-		0CCD621F20049339006936E5 /* HMSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CCD621D20049339006936E5 /* HMSegmentedControl.h */; };
-		0CCD622020049339006936E5 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCD621E20049339006936E5 /* HMSegmentedControl.m */; };
-		0CCD62222004935F006936E5 /* HMSegmentedControl.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CCD621D20049339006936E5 /* HMSegmentedControl.h */; };
-		0CCD622320049365006936E5 /* HMSegmentedControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCD621E20049339006936E5 /* HMSegmentedControl.m */; };
+		0CCD621F20049339006936E5 /* HMSegmented.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CCD621D20049339006936E5 /* HMSegmented.h */; };
+		0CCD622020049339006936E5 /* HMSegmented.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCD621E20049339006936E5 /* HMSegmented.m */; };
+		0CCD62222004935F006936E5 /* HMSegmented.h in Headers */ = {isa = PBXBuildFile; fileRef = 0CCD621D20049339006936E5 /* HMSegmented.h */; };
+		0CCD622320049365006936E5 /* HMSegmented.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CCD621E20049339006936E5 /* HMSegmented.m */; };
 		0CCD62372005D0BA006936E5 /* alto.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CCD62252005D0B9006936E5 /* alto.png */; };
 		0CCD62382005D0BA006936E5 /* alto.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CCD62252005D0B9006936E5 /* alto.png */; };
 		0CCD62392005D0BA006936E5 /* alto@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CCD62262005D0B9006936E5 /* alto@2x.png */; };
@@ -1434,8 +1434,8 @@
 		0CCD621020048F8D006936E5 /* MIDOtherVAViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = MIDOtherVAViewController.h; path = classes/MIDOtherVAViewController.h; sourceTree = "<group>"; };
 		0CCD621120048F8E006936E5 /* MIDOtherVAViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MIDOtherVAViewController.m; path = classes/MIDOtherVAViewController.m; sourceTree = "<group>"; };
 		0CCD621A20048FCA006936E5 /* MIDOtherVAViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = MIDOtherVAViewController.xib; path = MidtransKit/resources/MIDOtherVAViewController.xib; sourceTree = SOURCE_ROOT; };
-		0CCD621D20049339006936E5 /* HMSegmentedControl.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HMSegmentedControl.h; path = classes/HMSegmentedControl.h; sourceTree = "<group>"; };
-		0CCD621E20049339006936E5 /* HMSegmentedControl.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HMSegmentedControl.m; path = classes/HMSegmentedControl.m; sourceTree = "<group>"; };
+		0CCD621D20049339006936E5 /* HMSegmented.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = HMSegmented.h; path = classes/HMSegmented.h; sourceTree = "<group>"; };
+		0CCD621E20049339006936E5 /* HMSegmented.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = HMSegmented.m; path = classes/HMSegmented.m; sourceTree = "<group>"; };
 		0CCD62252005D0B9006936E5 /* alto.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = alto.png; path = resources/alto.png; sourceTree = "<group>"; };
 		0CCD62262005D0B9006936E5 /* alto@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alto@2x.png"; path = "resources/alto@2x.png"; sourceTree = "<group>"; };
 		0CCD62272005D0B9006936E5 /* alto@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alto@3x.png"; path = "resources/alto@3x.png"; sourceTree = "<group>"; };
@@ -2318,8 +2318,8 @@
 				E5C25FF01D26382E0012BCC8 /* MidtransUIBaseViewController.m */,
 				E5C25FF31D2639B40012BCC8 /* VTBackBarButtonItem.h */,
 				E5C25FF41D2639B40012BCC8 /* VTBackBarButtonItem.m */,
-				0CCD621D20049339006936E5 /* HMSegmentedControl.h */,
-				0CCD621E20049339006936E5 /* HMSegmentedControl.m */,
+				0CCD621D20049339006936E5 /* HMSegmented.h */,
+				0CCD621E20049339006936E5 /* HMSegmented.m */,
 			);
 			name = Kit;
 			sourceTree = "<group>";
@@ -3018,7 +3018,7 @@
 				E57120AD1E937B790064F515 /* MidtransCollectionViewLayout.h in Headers */,
 				0CCD621820048FA3006936E5 /* MIDOtherVAViewController.h in Headers */,
 				E57120AE1E937B790064F515 /* MidtransLineView.h in Headers */,
-				0CCD62222004935F006936E5 /* HMSegmentedControl.h in Headers */,
+				0CCD62222004935F006936E5 /* HMSegmented.h in Headers */,
 				E57120AF1E937B790064F515 /* VTItemViewModel.h in Headers */,
 				E57120B01E937B790064F515 /* VTPaymentStatusViewModel.h in Headers */,
 				E57120B11E937B790064F515 /* VTVATransactionStatusViewModel.h in Headers */,
@@ -3167,7 +3167,7 @@
 				E55F62B31E934A6D00C012C8 /* VTBackBarButtonItem.h in Headers */,
 				E55F62B71E934A6D00C012C8 /* VTClassHelper.h in Headers */,
 				E55F62B81E934A6D00C012C8 /* NSString+TextDirectionality.h in Headers */,
-				0CCD621F20049339006936E5 /* HMSegmentedControl.h in Headers */,
+				0CCD621F20049339006936E5 /* HMSegmented.h in Headers */,
 				ECB02146221A85940037C0E1 /* MIDAlfamartViewController.h in Headers */,
 				E55F62B91E934A6D00C012C8 /* MidtransUIStringHelper.h in Headers */,
 				E55F62BC1E934A6D00C012C8 /* MidtransUICardFormatter.h in Headers */,
@@ -4304,7 +4304,7 @@
 				E571230B1E937C050064F515 /* VTPaymentListView.m in Sources */,
 				E571230C1E937C050064F515 /* MidtransTransactionDetailViewController.m in Sources */,
 				E571230D1E937C050064F515 /* MidtransPaymentMethodHeader.m in Sources */,
-				0CCD622320049365006936E5 /* HMSegmentedControl.m in Sources */,
+				0CCD622320049365006936E5 /* HMSegmented.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -4407,7 +4407,7 @@
 				0C1ADB8C1EEA98DE0054CF54 /* SNPPostPaymentGeneralViewController.m in Sources */,
 				ECB021AD221D24EB0037C0E1 /* MIDAlfamartPostPaymentViewController.m in Sources */,
 				E55F63301E934B1C00C012C8 /* MidtransNewCreditCardView.m in Sources */,
-				0CCD622020049339006936E5 /* HMSegmentedControl.m in Sources */,
+				0CCD622020049339006936E5 /* HMSegmented.m in Sources */,
 				E55F63311E934B1C00C012C8 /* VTCvvInfoController.m in Sources */,
 				E55F63321E934B1C00C012C8 /* VTConfirmPaymentController.m in Sources */,
 				E55F63331E934B1C00C012C8 /* PushAnimator.m in Sources */,
