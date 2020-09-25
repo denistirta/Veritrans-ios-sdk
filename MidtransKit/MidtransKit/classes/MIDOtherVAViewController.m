@@ -7,7 +7,7 @@
 //
 
 #import "MIDOtherVAViewController.h"
-#import "HMSegmentedControl.h"
+#import "HMSegmented.h"
 #import "MidtransUIThemeManager.h"
 #import "VTKITConstant.h"
 #import "VTClassHelper.h"
@@ -27,8 +27,8 @@
     [super viewDidLoad];
     self.title = self.paymentMethod.title;
     self.segmentedControl.sectionTitles = @[@"ATM BERSAMA",@"PRIMA",@"ALTO"];
-    self.segmentedControl.selectionStyle = HMSegmentedControlSelectionStyleTextWidthStripe;
-    self.segmentedControl.selectionIndicatorLocation = HMSegmentedControlSelectionIndicatorLocationDown;
+    self.segmentedControl.selectionStyle = HMSegmentedSelectionStyleTextWidthStripe;
+    self.segmentedControl.selectionIndicatorLocation = HMSegmentedSelectionIndicatorLocationDown;
     self.segmentedControl.selectionIndicatorColor = [[MidtransUIThemeManager shared] themeColor];
     self.segmentedControl.selectionIndicatorHeight = 2.0f;
     self.segmentedControl.titleTextAttributes = @{NSForegroundColorAttributeName : [UIColor lightGrayColor],NSFontAttributeName: [UIFont fontWithName:FONT_NAME_MEDIUM size:14.0f]};
@@ -44,7 +44,7 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-- (void)segmentedControlChangedValue:(HMSegmentedControl *)segmentedControl {
+- (void)segmentedControlChangedValue:(HMSegmented *)segmentedControl {
     NSString *imageNamed = [[self.segmentedControl.sectionTitles[segmentedControl.selectedSegmentIndex] lowercaseString] stringByReplacingOccurrencesOfString:@" " withString:@"_"];
     NSString *textName =self.segmentedControl.sectionTitles[segmentedControl.selectedSegmentIndex];
     self.smallTextLabel.text =[NSString stringWithFormat:@"Pastikan ada logo %@ di belakang kartu ATM",textName];

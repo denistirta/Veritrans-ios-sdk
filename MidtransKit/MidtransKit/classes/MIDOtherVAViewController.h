@@ -7,8 +7,8 @@
 //
 
 #import "MidtransUIPaymentController.h"
-@class HMSegmentedControl;
+@class HMSegmented;
 @interface MIDOtherVAViewController : MidtransUIPaymentController
-@property (weak, nonatomic) IBOutlet HMSegmentedControl *segmentedControl;
+@property (weak, nonatomic) IBOutlet HMSegmented *segmentedControl;
 
 @end
